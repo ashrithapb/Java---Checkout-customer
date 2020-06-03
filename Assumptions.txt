@@ -1,0 +1,8 @@
+Assumptions:
+1. Credit card validation is done using Luhn Algorithm.
+Any credit card number should pass following test:
+From the rightmost digit, we should double every second digit. If the double is greater than 9, then add the both digits so that final number is of single digit.
+Now sum all the digits in the number, the unchanged numbers and the doubled numbers.
+The final sum should be multiple of 10 or mod 10 of the number should be 0. If it’s not then its not a valid credit card number.
+2. authorization number is valid if it is in the range :1000 and 9999 Otherwise it is not a valid authorization number.
+3. Reference number is a 4 digit random number.
